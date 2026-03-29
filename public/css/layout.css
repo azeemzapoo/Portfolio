@@ -1,0 +1,50 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #222;
+    padding: 15px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-links a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px;
+}
+
+.footer {
+    position: fixed;   /* 👈 key part */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    background: #0b0f19;
+    color: #888;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid #222;
+}
